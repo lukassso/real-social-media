@@ -1,0 +1,18 @@
+[submodule "server/users-service"]
+	path = server/users-service
+	url = https://github.com/realtimecms/users-service.git
+[submodule "server/email-service"]
+	path = server/email-service
+	url = https://github.com/realtimecms/email-service.git
+[submodule "server/email-password-service"]
+	path = server/email-password-service
+	url = https://github.com/realtimecms/email-password-service.git
+[submodule "server/session-service"]
+	path = server/session-service
+	url = https://github.com/realtimecms/session-service.git
+[submodule "server/log-server"]
+	path = server/log-server
+	url = https://github.com/realtimecms/log-server.git
+[submodule "server/phone-password-service"]
+	path = server/phone-password-service
+	url = https://github.com/realtimecms/phone-password-service.git

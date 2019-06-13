@@ -1,0 +1,33 @@
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+*.iml
+.idea
+
+# Local env files
+.env.local
+.env.*.local
+
+# Compiled files
+node_modules
+/dist
+
+# Node
+node_modules
+package-lock.json
+
+# Realtime CMS
+*/service.json
+
+# System generated files
+.DS_Store
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

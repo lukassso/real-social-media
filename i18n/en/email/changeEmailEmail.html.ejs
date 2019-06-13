@@ -1,0 +1,7 @@
+Hello <b><%= (user.firstName + " "+ user.lastName) || user.fullName  || user.display %></b>,<br>
+you have requested email change for your account,
+if you want to set your to <%= newEmail %> click link below:<br><br>
+<a href="<%= `${env.baseHref}/user/change-email/${key}` %>"><%= `${env.baseHref}/user/change-email/${key}` %></a>
+<br>
+<br>
+Best regards<br>Reall Team<hr>

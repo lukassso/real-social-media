@@ -1,0 +1,9 @@
+Hello <b><%= (user.firstName + " "+ user.lastName) || user.fullName  || user.display %></b>,<br>
+someone sign up with your email on our page, if you want to create account click link below:<br>
+<br>
+<a href="<%= `${env.baseHref}/user/confirm-sign-up-email/${key}` %> "><%= `${env.baseHref}/user/confirm-sign-up/${key}` %> </a><br>
+<br>
+Let us know if it's not you.<br>
+<br>
+Best regards<br>
+Reall Team<hr>

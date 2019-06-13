@@ -1,0 +1,7 @@
+Hello <%= (user.firstName + " "+ user.lastName) || user.fullName  || user.display %>,
+you have requested email change for your account, if you want to set your to ${newEmail} click link below:
+
+<%= `${env.baseHref}/user/change-email/${key}` %>
+
+Best regards
+Reall Team
