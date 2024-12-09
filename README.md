@@ -6,6 +6,7 @@
 - recli
 - Node.js v10
 - PM2
+- Vue
 
 ## Instalation
 
